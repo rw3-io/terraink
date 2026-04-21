@@ -186,24 +186,6 @@
   transform: translateY(-50%);
 }
 
-.poster-attribution {
-  position: absolute;
-  font-family: "Spline Sans Mono", monospace;
-  font-weight: 300;
-  font-size: 0.85cqh;
-  text-align: right;
-  opacity: 0.55;
-}
-
-.poster-credits {
-  position: absolute;
-  font-family: "Spline Sans Mono", monospace;
-  font-weight: 300;
-  font-size: 0.85cqh;
-  text-align: left;
-  opacity: 0.55;
-}
-
 @media (max-width: 980px) {
   .poster-viewport {
     min-height: 400px;

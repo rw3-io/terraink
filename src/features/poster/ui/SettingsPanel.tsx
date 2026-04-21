@@ -67,7 +67,6 @@ export default function SettingsPanel({
     handleLocationSelect,
     handleClearLocation,
     setLocationFocused,
-    handleCreditsChange,
   } = useFormHandlers();
   const { locationSuggestions, isLocationSearching, searchNow } = useLocationAutocomplete(
     state.form.location,
