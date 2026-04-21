@@ -432,10 +432,7 @@ export default function PreviewPanel() {
             lon={formLon}
             fontFamily={form.fontFamily}
             textColor={effectiveTheme.ui.text}
-            landColor={effectiveTheme.map.land}
             showPosterText={form.showPosterText}
-            includeCredits={form.includeCredits}
-            showOverlay={form.showMarkers}
           />
 
           <div className="map-controls" aria-label="Map controls">
