@@ -40,7 +40,7 @@ export default function DesktopNavBar({
     <nav className="desktop-nav-bar" aria-label="Settings sections">
       <button
         type="button"
-        className={`desktop-nav-tab${isLocationVisible ? " is-active" : ""}`}
+        className={`desktop-nav-tab`}
         onClick={onLocationToggle}
         title={isLocationVisible ? "Hide location row" : "Show location row"}
         aria-label={isLocationVisible ? "Hide location row" : "Show location row"}
